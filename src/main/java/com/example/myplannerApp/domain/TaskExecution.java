@@ -1,5 +1,6 @@
 package com.example.myplannerApp.domain;
 
+
 import lombok.*;
 import org.springframework.data.mongodb.core.mapping.Document;
 
@@ -8,7 +9,10 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @NoArgsConstructor
 @Getter
 @Setter
-@Document(collection = "assigners")
-public class Assigner extends User{
-   String currentlyWantedSkill;
+@Document(collection = "taskexecs")
+public class TaskExecution {
+    String who;
+    String what;
+    String Description;
+    String progress;
 }

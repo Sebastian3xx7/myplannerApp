@@ -8,10 +8,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @NoArgsConstructor
 @Getter
 @Setter
-@Document(collection = "conversations")
-public class Conversation {
-    String id;
-    String idAcceptedTask;
-    String idWorker;
-    String idAssigner;
+@Document(collection = "managers")
+public class Manager extends User{
+   String company;
 }

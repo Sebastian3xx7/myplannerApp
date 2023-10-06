@@ -14,9 +14,9 @@ import java.util.Date;
 @Document(collection = "messages")
 public class Message {
     String id;
+    String idConversation;
     String content;
     String idSender;
-    String idReceiver;
     Date timeStamp;
-    String idConversation;
+
 }

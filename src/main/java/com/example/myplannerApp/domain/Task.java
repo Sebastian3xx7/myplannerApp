@@ -13,7 +13,6 @@ public class Task {
     String id;
     String title;
     String description;
-    String status;
-    String idAssigner;
+    String idManager;
     String skillRequired;
 }

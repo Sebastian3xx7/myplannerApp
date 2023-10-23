@@ -1,7 +1,6 @@
 package com.example.myplannerApp.domain;
 
 import lombok.*;
-import org.bson.types.ObjectId;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Data
@@ -9,12 +8,12 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @NoArgsConstructor
 @Getter
 @Setter
-@Document(collection = "users")
-public class User{
+@Document(collection = "managers")
+public class Manager2{
     String id;
     String username;
     String email;
     String password;
-
+    String company;
 }
 

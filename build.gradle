@@ -27,6 +27,7 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-rest'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.boot:spring-boot-starter-websocket'
+//	implementation 'io.jsonwebtoken:jjwt:0.9.1'
 	//implementation 'org.springframework.boot:spring-boot-starter-websocket' // WebSocket support for Spring Boot
 //	implementation 'org.springframework.messaging:spring-messaging' // Messaging support
 //	implementation 'org.springframework.security:spring-security-messaging' // Spring Security messaging support (optional)
